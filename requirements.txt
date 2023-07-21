@@ -1,0 +1,16 @@
+# Python 3.8.17
+# Usage: pip install -r requirements.txt
+
+# Might need to use below command first:
+# conda install -n Test_Task ipykernel --update-deps --force-reinstall
+
+torch
+Pillow
+opencv-python
+pandas
+requests
+torchvision
+PyYAML
+tqdm
+ultralytics
+gitpython
