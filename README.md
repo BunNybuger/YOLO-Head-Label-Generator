@@ -3,7 +3,8 @@
 
 This repository contains code for a head detector and blurring tool. Follow the steps below to use it:
 
-1- Ensure you have the `requirements.txt` file. If not, you can install the required dependencies by running:
+1. Ensure you have the `requirements.txt` file. If not, you can install the required dependencies by running:
+
 pip install -r requirements.txt
 
 
