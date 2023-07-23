@@ -10,7 +10,7 @@ This project aims to reduce manual work for labelers by automatically generating
 
 Follow these steps to use the project:
 
-1. Clone the repo and Open the `head_detector.ipynb` file in a Jupyter Notebook environment.
+1. Clone the repo and Open the `final.ipynb` file in a Jupyter Notebook environment.
 2. Optionally, create a new work environment for the project.
 3. Install the required dependencies by running the first cell in the notebook. (This will take a while)
 4. Run the second cell and input the desired variables.
