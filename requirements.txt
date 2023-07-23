@@ -1,16 +1,21 @@
 # Python 3.8.17
 # Usage: pip install -r requirements.txt
 
-# Might need to use below command first:
-# conda install -n Test_Task ipykernel --update-deps --force-reinstall
+# If you are using Jupyther in Vscode you might also need to use below command to install ipykernel package:
+# conda install -n [Your env name] ipykernel --update-deps --force-reinstall
 
+# for first method
+opencv-python-headless
+retina-face
+matplotlib
+
+# for second method
 torch
-Pillow
-opencv-python
 pandas
-requests
 torchvision
 PyYAML
-tqdm
 ultralytics
 gitpython
+
+# for user interface
+ipywidgets
