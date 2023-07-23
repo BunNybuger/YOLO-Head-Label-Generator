@@ -26,7 +26,7 @@ All coordinates are normalized by image width and height, ranging from 0 to 1.
 Additionally, the Jupyter Notebook provides a preview of the detected heads, allowing users to verify the quality of the detections while the model processes the images.
 
 ## Pipeline Overview
-![Pipeline flowchart](./pics/Flow_chart.png)
+![Pipeline flowchart](./pics/flowchart.png)
 
 To maximize performance and detect as many heads as possible, the pipeline employs two separate models:
 
