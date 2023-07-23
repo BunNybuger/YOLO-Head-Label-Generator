@@ -2,9 +2,9 @@
 
 This project aims to reduce manual work for labelers by automatically generating head labels in YOLO.txt format. The final product allows users to detect and label heads in images efficiently. The pipeline utilizes two separate models to achieve accurate head detection and handle challenging scenarios.
 
-![User interface](./pics/interface.jpg | center)
+![User interface](./pics/interface.jpg)
 
-![What the pipeline adds on top of Retina](./pics/4.png | center)
+![What the pipeline adds on top of Retina](./pics/4.png)
 
 ## Getting Started
 
@@ -26,13 +26,13 @@ All coordinates are normalized by image width and height, ranging from 0 to 1.
 Additionally, the Jupyter Notebook provides a preview of the detected heads, allowing users to verify the quality of the detections while the model processes the images.
 
 ## Pipeline Overview
-![Pipeline flowchart](./pics/Flow_chart.png | center)
+![Pipeline flowchart](./pics/Flow_chart.png)
 
 To maximize performance and detect as many heads as possible, the pipeline employs two separate models:
 
 ### 1. Retina Face Model
 
-![Retina output](pics/1.jpg | center)
+![Retina output](pics/1.jpg)
 
 Initially, the project utilizes the [RETINA face model](https://github.com/serengil/retinaface) for face detection. Although the RETINA model has good accuracy for faces, it may miss images where the face is not clear, such as people shown from the back or wearing personal protective equipment (PPE) from different angles. This step serves as a quick solution to detect faces and produce YOLO.txt files.
 
@@ -40,8 +40,8 @@ Initially, the project utilizes the [RETINA face model](https://github.com/seren
 - Accuracy: Good, but may fail to detect certain images.
 
 ### 2. YOLO Head Detector Model
-![2nd model output](./pics/3(1).jpg | center)
-![2nd model output](./pics/3(2).jpg | center)
+![2nd model output](./pics/3(1).jpg)
+![2nd model output](./pics/3(2).jpg)
 
 To improve accuracy and handle challenging scenarios, a second method is used. The pipeline proceeds as follows:
 
