@@ -40,8 +40,8 @@ Initially, the project utilizes the [RETINA face model](https://github.com/seren
 - Accuracy: Good, but may fail to detect certain images.
 
 ### 2. YOLO Head Detector Model
-![2nd model output](./pics/3(1).jpg)
-![2nd model output](./pics/3(2).jpg)
+![2nd model output](./pics/2.jpg)
+![2nd model output](./pics/3.jpg)
 
 To improve accuracy and handle challenging scenarios, a second method is used. The pipeline proceeds as follows:
 
