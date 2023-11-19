@@ -1,4 +1,4 @@
-# Inviol Technical Test Project - Producing Head Labels in YOLO.txt Format
+# Producing Head Labels in YOLO.txt Format
 
 This project aims to reduce manual work for labelers by automatically generating head labels in YOLO.txt format. The final product allows users to detect and label heads in images efficiently. The pipeline utilizes two separate models to achieve accurate head detection and handle challenging scenarios.
 
